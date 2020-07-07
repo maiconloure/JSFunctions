@@ -8,14 +8,12 @@ body {
 #header {
     display: flex;
     background-color: #00BFFF;
-
 }
-
 
 #credits {
     width: 270px;
     height: 60px;
-    margin: 10px;
+    margin-top: 13px;
 }  
 
 #credits p, a {
@@ -47,7 +45,6 @@ h1 {
     margin: 10px;
     width: 60px;
     height: 60px;
-
 }
 
 #logo img {
@@ -82,11 +79,18 @@ input {
     
 }
 
+#main {
+    display: flex;
+}
+
 #mainContainer {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 501px;
+    height: 2652px;
+    margin: 0 auto;
 }
 
 #functionContainer {
@@ -94,14 +98,18 @@ input {
     text-align: center;
 }
 
-#guide {
-    position: absolute;
+
+#guide {    
+    /* position: absolute; */
+    min-width: 250px;
     width: 26vw;
     height: 1750px;
-    margin-left: 20px;
     background-color: #B0E0E6;
-    margin-top: 20px;
     padding: 16px;
+
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 #guide h2 {
@@ -130,4 +138,14 @@ input {
     margin-top: 25px;
     font-size: 1.2rem;
     text-decoration: underline;
+}
+
+
+#block {
+    min-width: 250px;
+    width: 26vw;
+    height: 1750px;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 16px;
 }
