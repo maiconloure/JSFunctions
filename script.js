@@ -3,14 +3,14 @@ Array.prototype.newForEach = function(callback) {
         const currentValue = this[index]
         callback(currentValue, index, this)
     }
-    return this
+    return undefined
 }
 
 // const arr = [ 1, 2, 3]
 // arr.newForEach((value, index) => console.log(`Valor: ${value}, Index: ${index}`))
 // console.log([].newForEach((value, index) => console.log(`Value: ${value}, Index: ${index}`)))   Value: 1, Index: 0
 //                                                                                                 Value: 2, Index: 1
-//                                                                                                 Value: 3, Index: 2
+//      [ 1, 2, 3]  (value, index) => console.log(`Valor: ${value}, Index: ${index}`)                                                                      Value: 3, Index: 2
 
 
 Array.prototype.newMap = function(callback) {
@@ -123,7 +123,7 @@ Array.prototype.newConcat = function(...args) {
     return newArr
 }
 
-// let letters = ["A", "b", "C"]
+// let letters = ["a", "b", "c"]
 // let nums = [1, 2, 3]
 // console.log(letters.newConcat(nums)) // [ 'A', 'b', 'C', 1, 2, 3 ]
 

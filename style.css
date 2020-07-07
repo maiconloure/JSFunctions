@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+h1 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #00BFFF;
+}
+
+#mainContainer h2 {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #191970;
+    color: #FFF;
+}
+
+label {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    margin-right: 6px;
+}
+
+textarea {
+    font-family: Fira Code;
+    resize: vertical;
+}
+
+input {
+    margin-left: 6px;
+    height: 20px;
+}
+
+#submit {
+    height: 24px;
+    
+}
+
+#mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#functionContainer {
+    margin: 10px auto;
+    text-align: center;
+
+}
+
+#guide {
+    position: absolute;
+    width: 26vw;
+    height: 1750px;
+    margin-left: 20px;
+    background-color: #B0E0E6;
+    margin-top: 20px;
+    padding: 16px;
+}
+
+#guide h2 {
+    background-color: #B22222;
+    padding: 4px;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+#guide p {
+    font-family: Roboto, sans-serif;
+    font-size: 0.96rem;
+    /* margin: 4px; */
+
+}
+
+#examples p {
+    font-family: Fira Code;
+    font-size: 0.9rem;
+    margin: 8px;
+}
+
+#funct {
+    font-family: Fira Code;
+    font-weight: bold;
+    margin: 1px;
+    margin-top: 25px;
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+#credits {
+    position: relative;
+    width: 280px;
+    height: 60px;
+    margin: 10px;
+
+    position: absolute;
+
+}
+
+#credits p {
+    font-family: Fira Code, sans-serif;
+    font-weight: 500;
+    margin: 3px;
+    background-color: lawngreen;
+}
+
